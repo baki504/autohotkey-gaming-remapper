@@ -1,4 +1,6 @@
-; Street Fighter V 
+; Street Fighter V
+
+#MaxHotkeysPerInterval, 1000
 
 ; Move
 e::w ; Up
