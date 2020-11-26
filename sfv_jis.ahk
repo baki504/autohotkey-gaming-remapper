@@ -24,6 +24,7 @@ p::n
 ,::Enter
 
 ^q::
-    MsgBox, exit remapper.
-    ExitApp
+    MsgBox, 1, , Would you like to exit gaming-remapper ?
+    IfMsgBox Ok
+    ExitApp, 0
 return
